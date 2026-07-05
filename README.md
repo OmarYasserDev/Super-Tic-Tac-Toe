@@ -39,7 +39,8 @@ Super-Tic-Tac-Toe/
 │── tic-toe.png
 └── README.md
 ## 📸 Screenshot
-e:\Screenshot 2026-07-05 214256.jpg
+<img width="1401" height="856" alt="Screenshot 2026-07-05 214256" src="https://github.com/user-attachments/assets/997ca506-e804-4d6e-a6d0-b8cc4ad8c343" />
+
 ## Future Improvements
 
 AI opponent
