@@ -5,7 +5,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 body{
-    background:#090d18;
+    background: black;
     color:white;
     display:flex;
     flex-direction:column;
@@ -23,9 +23,6 @@ body{
     font-weight:800;
     letter-spacing:4px;
 }
-.title span{
-    color:#2b7cff;
-}
 .title p{
     margin-top:10px;
     color:#a8b0c2;
@@ -40,7 +37,7 @@ body{
     gap:18px;
     padding:18px;
     background:#101625;
-    border:2px solid #2a3555;
+    border:2px solid #000000;
     border-radius:25px;
     box-shadow:0 0 35px rgba(0,0,0,.45);
 }
@@ -58,7 +55,7 @@ body{
     transition:.25s;
 }
 .small-board:hover{
-    border-color:#2b7cff;
+    border-color:#000409;
     box-shadow:0 0 18px rgba(43,124,255,.45);
 }
 .cell{
@@ -66,7 +63,7 @@ body{
     height:100%;
     border:none;
     border-radius:8px;
-    background:#182136;
+    background: black;
     color:white;
     font-size:42px;
     font-weight:bold;
@@ -74,7 +71,7 @@ body{
     transition:.25s;
 }
 .cell:hover{
-    background:#263552;
+    background: black;
     transform:scale(1.05);
 }
 .cell.x{
@@ -86,11 +83,11 @@ body{
     text-shadow:0 0 12px #ff5a68;
 }
 .active-board{
-    border-color:#2b7cff;
+    border-color:#000000;
     box-shadow:0 0 20px rgba(43,124,255,.7);
 }
 .won-x{
-    border-color:#2b7cff;
+    border-color:#000307;
     box-shadow:0 0 25px rgba(43,124,255,.9);
 }
 .won-o{
@@ -114,12 +111,12 @@ body{
 }
 .winner-box{
     width:380px;
-    background:#131c2e;
+    background:#000000;
     border:2px solid #2b7cff;
     border-radius:20px;
     padding:45px;
     text-align:center;
-    box-shadow:0 0 30px rgba(43,124,255,.45);
+    box-shadow:0 0 30px rgba(14, 40, 82, 0.45);
 }
 .winner-box h1{
     font-size:38px;
@@ -130,12 +127,12 @@ body{
     font-size:18px;
     border:none;
     border-radius:12px;
-    background:#2b7cff;
+    background:#000000;
     color:white;
     cursor:pointer;
     transition:.25s;
 }
 #restartBtn:hover{
-    background:#4d94ff;
+    background:#000000;
     transform:scale(1.08);
 }

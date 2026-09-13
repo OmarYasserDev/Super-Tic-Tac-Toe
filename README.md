@@ -38,7 +38,7 @@ Super-Tic-Tac-Toe/
 │── logic.js
 │── tic-toe.png
 └── README.md
-## 📸 Screenshot
+## Screenshot
 e:\Screenshot 2026-07-05 214256.jpg
 ## Future Improvements
 
